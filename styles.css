@@ -1,0 +1,52 @@
+/* Your styles here! */
+.main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.85rem;
+}
+
+.image {
+        width: 190px;
+        height: 190px;
+}
+
+.features-list {
+        display: flex;
+        justify-content: flex-end;
+}
+
+.features-list > div {
+        background-color: #f1f1f1;
+        border-radius: 4.85px;
+        padding: 4.95px;
+        margin: 2px;
+}
+
+article {
+        display: flex;
+        justify-content: center;
+        background-color: #60ebb0;
+        max-width: 485px;
+        column-gap: 15px;
+        padding: 1rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 500px) {
+        .main {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 2em
+        }
+
+        article {
+            flex-direction: column;
+            max-width: 285px;
+        }
+
+        .image {
+            object-fit: cover;
+            width: 100%;
+            height: 385px;
+        }
+}
