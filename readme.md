@@ -11,4 +11,4 @@ Desktop
 ![mobile](./class-4-challenge-desktop.png)
 
 The images here are 200px. The content in the article is arranged in two columns with the image on the left and content on the right. The icons are are aligned to the right. 
-# responsive-web-design-challenge
+
